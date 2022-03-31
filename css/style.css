@@ -26,6 +26,7 @@ header{
   width: 90%;
   margin: 0 auto; 
   overflow: hidden;
+  /* border: 1px solid; */
 }
 
 .logo {
@@ -88,7 +89,7 @@ header{
 /* banner start  */
 
 .banner{
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   height: 100vh;
   background-image: url(../img/banner.jpg);
   background-position: center;
@@ -101,7 +102,7 @@ header{
   margin-top: 20%;
 }
 
-.banner-description {
+.description {
   padding: 10px 0;
   width: 23%;
   font-family: 'Bebas Neue', cursive;
@@ -117,6 +118,7 @@ header{
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-shadow: 3px 3px 2px white;
 }
 
 .banner-sub-title{
@@ -126,22 +128,22 @@ header{
 }
 
 .button{
-  margin-left: 5%;
+  /* margin-left: 5%; */
   padding: 20px 40px;
   border: 0;
+  background-color: #df1c1c;
   border: 1px solid #df1c1c;
   font-family: 'Alfa Slab One', cursive;
   font-size: 18px;
   color: #fff;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #df1c1c;
   transition: 0.3s;
 }
 
 .button:hover{
-  color: #3d2514;
-  border: 1px solid #3d2514;
+  border: 1px solid #df1c1c;
+  color: #df1c1c;
   background-color: transparent;
 }
 
@@ -152,3 +154,209 @@ header{
 }
 
 /* banner end  */
+
+/* popular items start  */
+
+.popular-items{
+  padding: 80px 0;
+}
+
+.container-2{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.item-container{
+  overflow: hidden;
+}
+
+.single-item{
+  float: left;
+  padding: 30px 0 0 30px;
+  width: 45%;
+  height: 453px;
+  border-radius: 20px;
+  background-image: url(../img/item-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item-2{
+  width: 48%;
+  float: right;
+  height: 190px;
+  background-image: url(../img/item-2.jpg);
+}
+
+.item-3{
+  margin-top: 3%;
+  width: 48%;
+  float: right;
+  height: 190px;
+  background-image: url(../img/item-3.jpg);
+}
+
+.item-tag, .tag{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.item-info{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+/* popular items end   */
+
+
+/* burger-menu start */
+
+.burger-menu {
+  padding-bottom: 80px;
+}
+
+.menu-info {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.menu-tag {
+  width: 12%;
+  padding: 5px 0;
+  display: inline-block;
+  border: 1px solid #ffc045;
+  background-color: #ffc045;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  font-weight: 400;
+  color: #3d2514;
+  text-align: center;
+}
+
+.menu-title, .title {
+  padding-top: 40px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.menu-content {
+  padding: 40px 15%;
+  line-height: 30px;
+}
+
+/* single burger start  */
+
+.burger-container {
+  overflow: hidden;
+}
+
+.single-burger {
+  padding: 40px 0;
+  padding-right: 11%;
+  width: 26%;
+  /* border: 1px solid salmon; */
+  text-align: center;
+  float: left;
+}
+
+.single-burger:last-child{
+  padding-right: 0;
+  /* background-color: rebeccapurple; */
+}
+
+.burger-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.burger-img img {
+  width: 100%;
+}
+
+.img-2{
+  width: 60%;
+}
+
+.img-3{
+  width: 83.5%;
+}
+
+.burger-name{
+  padding-top: 25px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: #3d2514;
+}
+
+.burger-info{
+  padding: 25px 0;
+}
+
+/* single burger end  */
+
+/* burger-menu end */
+
+/* events start  */
+
+.events {
+  padding-bottom: 80px;
+  
+}
+
+.container-3{
+  border-radius: 20px;
+  box-shadow: 10px 31px 128px -17px rgba(0,0,0,0.1);
+}
+
+.event-container {
+  overflow: hidden;
+}
+
+.event-content {
+  padding-left: 50px;
+  width: 43%;
+  float: left;
+}
+
+.tag {
+  padding-top: 60px;
+  color: #3d2514;
+  font-size: 30px;
+  font-weight: 700;
+  /* letter-spacing: 2px; */
+}
+
+.title {
+  padding: 0;
+  padding-bottom: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.info {
+  /* padding: 45px 10% 0 0; */
+  font-size: 20px;
+  color: #3d3d3d;
+  line-height: 40px;
+}
+
+.event-img {
+  padding: 30px;
+  width: 50%;
+  float: right;
+}
+
+.event-img img{
+  width: 100%;
+}
+
+/* events end  */
