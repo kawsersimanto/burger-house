@@ -317,6 +317,7 @@ header{
 }
 
 .event-container {
+  position: relative;
   overflow: hidden;
 }
 
@@ -331,7 +332,6 @@ header{
   color: #3d2514;
   font-size: 30px;
   font-weight: 700;
-  /* letter-spacing: 2px; */
 }
 
 .title {
@@ -343,10 +343,14 @@ header{
 }
 
 .info {
-  /* padding: 45px 10% 0 0; */
   font-size: 20px;
   color: #3d3d3d;
   line-height: 40px;
+}
+
+.dots{
+  position: absolute;
+  bottom: 15%;
 }
 
 .event-img {
@@ -402,3 +406,105 @@ header{
 }
 
 /* reservation end  */
+
+/* footer start  */
+
+footer{
+  margin-bottom: 80px;
+}
+
+.footer-bg{
+  padding: 80px 40px;
+  background-image: url(../img/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  position: relative;
+}
+
+.about {
+  width: 40%;
+  float: left;
+}
+
+
+.about-us{
+  padding: 40px 0 160px;
+  color: #fff;
+  line-height: 30px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  color: #c4c4c4;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* letter-spacing: 1px; */
+}
+
+.contact {
+  padding-top: 10%;
+  width: 30%;
+  float: right;
+}
+
+.contact address{
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.contact address p{
+  padding-left: 10px;
+  position: absolute;
+  top: 15%;
+}
+
+.email {
+  margin-top: 20px;
+  position: relative;
+  color: white;
+}
+
+.email p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 10px;
+  position: absolute;
+  top: 5%;
+}
+
+.social-medias {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+}
+
+.social-medias ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.social-medias ul li:last-child{
+  padding-right: 0;
+}
+
+.social-medias ul li:hover{
+  cursor: pointer;
+}
+
+
+/* footer end  */
