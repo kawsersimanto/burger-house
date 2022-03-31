@@ -1,8 +1,154 @@
+/* basci styling start */
+
 *{
   margin: 0;
   padding: 0;
 }
 
 body{
-  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3d2514;
 }
+
+/* basic styling end  */
+
+/* header start  */
+
+header{
+  padding: 40px 0;
+  background-color: #ffc045;
+  /* border: 1px solid salmon; */
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto; 
+  overflow: hidden;
+}
+
+.logo {
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  /* border: 1px solid salmon; */
+}
+
+.logo img{
+  width: 100%;
+}
+
+.menu {
+  width: 60%;
+  float: right;
+  /* border: 1px solid salmon; */
+}
+
+.menu ul {
+  padding-top: 20px;
+  float: right;
+}
+
+
+.contact p{
+  display: inline-block;
+}
+
+.menu ul li{
+  list-style: none;
+  float: left;
+
+}
+
+.menu ul li:last-child a{
+  margin-right: 0;
+}
+
+.menu ul li a{
+  margin: 0 60px;
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3d2514;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover{
+  border-bottom: 1px solid #3d2514;
+}
+
+/* header end  */
+
+/* banner start  */
+
+.banner{
+  padding-bottom: 40px;
+  height: 100vh;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-content {
+  margin-top: 20%;
+}
+
+.banner-description {
+  padding: 10px 0;
+  width: 23%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 23px;
+  text-align: center;
+  border: 1px dashed #3d2514;
+}
+
+.banner-title {
+  padding-top: 25px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 114px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.banner-sub-title{
+  margin-bottom: 40px;
+  padding: 0;
+  font-size: 56px;
+}
+
+.button{
+  margin-left: 5%;
+  padding: 20px 40px;
+  border: 0;
+  border: 1px solid #df1c1c;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #df1c1c;
+  transition: 0.3s;
+}
+
+.button:hover{
+  color: #3d2514;
+  border: 1px solid #3d2514;
+  background-color: transparent;
+}
+
+.price-tag{
+  position: absolute;
+  top: 73%;
+  right: 40%;
+}
+
+/* banner end  */

@@ -1,0 +1,12 @@
+fonts -
+  BebasNeue(regular) - 400 - font-family: 'Bebas Neue', cursive;
+  BebasNeue(bold) - 700
+
+  montserrat(regular) - 400 -  font-family: 'Montserrat', sans-serif;
+  alfaslabone(regular) - 400 - font-family: 'Alfa Slab One', cursive;
+
+colors -
+  text-color : #3d2514 (paragraph)
+  white : #ffffff (footer)
+  primary-color : #bf2222 (buttons)
+  yellow : #ffc045; (tag)
