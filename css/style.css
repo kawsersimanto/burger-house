@@ -360,3 +360,45 @@ header{
 }
 
 /* events end  */
+
+/* reservation start  */
+
+.reservation{
+  padding-top: 80px;
+  padding-bottom: 0;
+  height: 100vh;
+  background-image: url(../img/form-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.reservation-content{
+  text-align: center;
+}
+
+.form-container input {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 25px 0 25px 25px;
+  width: 380px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+.form-container input:focus{
+  outline: none;
+}
+
+.form-container input:last-child{
+  width: 409px;
+  padding: 0;
+  padding: 25px 0 25px 25px;
+  font-family: 'Alfa Slab One', cursive;
+  border: 1px solid #df1c1c;
+}
+
+/* reservation end  */
